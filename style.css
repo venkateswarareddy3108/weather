@@ -1,0 +1,178 @@
+@media (min-width: 280px) and (max-width: 480px) {
+    #table_container {
+      width: 100% !important;
+      margin: auto;
+    }
+  }
+* {
+    box-sizing: border-box;
+}
+
+/* Default background image */
+body {
+    background: url("./images/main_bg.jpg") no-repeat center/cover;
+}
+
+
+/* Styling nav bar */
+nav {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px 0.1px white;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+input {
+    border-radius: none;
+    border: none;
+    background: transparent;
+    margin-top: 2px;
+    height: 20px;
+    width: 100px;
+    border-bottom: 1.5px solid white;
+    color: white;
+    padding: 2px;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+button {
+    border: none !important;
+    padding: 0px !important;
+    height: 25px;
+    width: 25px;
+    font-weight: lighter;
+}
+
+svg {
+    height: 25px;
+}
+
+/* main location display block  */
+#main_location_display{
+    display: none;
+    width: 250px;
+    height: 50px;
+    margin: 30px auto 0px; 
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 5px 0.5px white;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+ 
+   }
+
+
+/* styling main weather divs container */
+
+  #weather_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:20px;
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  #weather,
+  #location,
+  #atmosphere {
+    backdrop-filter: blur(15px);
+    color: white;
+    min-width: 280px;
+    max-width: 400px;
+    flex: 1 1 auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0.5px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h4 {
+    margin: 15px;
+    text-align: center;
+  }
+
+  h6 {
+    margin-left: 5%;
+  }
+
+  #temp_list {
+    margin-left: 5%;
+  }
+
+  ul {
+    font-size: 13px;
+  }
+
+  li {
+    margin: 10px;
+  }
+
+
+
+  /*styling Table container  */
+  #table_container {
+    width: 85%;
+    margin:20px auto;
+    box-shadow: 0px 0px 5px 0.5px white;
+  }
+
+  #table {
+    width: 80% !important;
+    background-color: transparent;
+    color: white;
+    margin: auto;
+  }
+
+  tr {
+    color: white;
+  }
+
+  table th,
+  .table td {
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    color: white !important;
+    border-color: rgba(250, 249, 249, 0.9);
+  }
+
+
+  /* footer styling for contact styling  */
+footer{
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 5px 0.5px white;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+#contact_container {
+  display: flex;
+  justify-content: left;
+  padding: 0px;
+  width: 205px;
+  margin: auto;
+}
+
+#contact_container svg {
+  height: 20px;
+  margin: 10px;
+}
+#designer{
+  margin:10px auto;
+}
